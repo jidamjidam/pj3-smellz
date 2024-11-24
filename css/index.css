@@ -317,7 +317,7 @@ section.news div.contents { position: relative; }
 section.news div.contents button.btn_more { position: absolute; top: 14vw; right: 5.2083333vw; }
 
 
-section.news ul { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(3, 1fr); gap: 2.6041666vw; width: 92.7083334vwvw; padding: 0 5.2083333vw; height: 240vw; 
+section.news ul { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(3, 1fr); gap: 2.6041666vw; width: 92.7083334vw; padding: 0 5.2083333vw; height: 240vw; 
 
     grid-template-areas:
 
@@ -367,7 +367,7 @@ section.recom div.contents { position: relative; }
 section.recom div.contents button.btn_more { position: absolute; top: 14vw; right: 5.2083333vw; }
 
 
-section.recom ul { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(3, 1fr); gap: 2.6041666vw; width: 92.7083334vwvw; padding: 0 5.2083333vw; height: 240vw; 
+section.recom ul { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(3, 1fr); gap: 2.6041666vw; width: 92.7083334vw; padding: 0 5.2083333vw; height: 240vw; 
 
     grid-template-areas:
 
@@ -477,7 +477,7 @@ section.p_story div.contents { position: relative; }
 section.p_story div.contents button.btn_more { position: absolute; top: 14vw; right: 5.2083333vw; }
 
 
-section.p_story ul { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(3, 1fr); gap: 2.6041666vw; width: 92.7083334vwvw; padding: 0 5.2083333vw; height: 240vw; 
+section.p_story ul { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(3, 1fr); gap: 2.6041666vw; width: 92.7083334vw; padding: 0 5.2083333vw; height: 240vw; 
 
     grid-template-areas:
 
@@ -537,6 +537,9 @@ section.p_story .grid_wrap li p.date { width: 39.0625vw; text-align: right; colo
     section .grid_wrap > li p {  
         overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
     }
+
+
+
 
 
 /* /////////////////////////////// */
@@ -625,7 +628,7 @@ section.news .grid_wrap .list_08 { grid-area: list_08; }
 
 section.news .grid_wrap li{ display: block; width: 100%; height: 100%; text-align: center; }
 section.news .grid_wrap li:nth-child(odd) { margin-top: 100px; }
-section.news .grid_wrap li img { width: 18.2291666vw; height: 18.2291666; object-fit: cover; margin-bottom: 10px; }
+section.news .grid_wrap li img { width: 18.2291666vw; height: 18.2291666vw; object-fit: cover; margin-bottom: 10px; }
 section.news .grid_wrap li:hover p.title { text-decoration: underline; }
 section.news .grid_wrap li p.title { font-family: 'NotoSansKR-SemiBold'; width: 100%; font-size: 1.5em; text-align: left; line-height: 1.5; margin-bottom: 10px; }
 section.news .grid_wrap li p.sub { font-size: 1.25em; margin-bottom: 10px; width: 100%; text-align: left; color: #555; }
@@ -676,7 +679,7 @@ section.recom .grid_wrap .list_08 { grid-area: list_08; }
 
 section.recom .grid_wrap li { display: block; width: 100%; height: 100%; text-align: center; }
 section.recom .grid_wrap li:nth-child(even) { margin-top: 100px; }
-section.recom .grid_wrap li img { overflow: hidden; width: 18.2291666vw; height: 18.2291666; object-fit: cover; margin-bottom: 10px; }
+section.recom .grid_wrap li img { overflow: hidden; width: 18.2291666vw; height: 18.2291666vw; object-fit: cover; margin-bottom: 10px; }
 section.recom .grid_wrap li:hover p.title { text-decoration: underline; }
 section.recom .grid_wrap li p.title { font-family: 'NotoSansKR-SemiBold'; width: 100%; font-size: 1.5em; text-align: left; line-height: 1.5; margin-bottom: 10px; }
 section.recom .grid_wrap li p.sub { font-size: 1.25em; margin-bottom: 10px; width: 100%; text-align: left; color: #555; }
@@ -788,7 +791,7 @@ section.p_story .grid_wrap .list_08 { grid-area: list_08; }
 
 section.p_story .grid_wrap li{ display: block; width: 100%; height: 100%; text-align: center; }
 section.p_story .grid_wrap li:nth-child(even) { margin-top: 100px; }
-section.p_story .grid_wrap li img { width: 18.2291666vw; height: 18.2291666; object-fit: cover; margin-bottom: 10px; }
+section.p_story .grid_wrap li img { width: 18.2291666vw; height: 18.2291666vw; object-fit: cover; margin-bottom: 10px; }
 section.p_story .grid_wrap li:hover p.title { text-decoration: underline; }
 section.p_story .grid_wrap li p.title { font-family: 'NotoSansKR-SemiBold'; width: 100%; font-size: 1.5em; text-align: left; line-height: 1.5; margin-bottom: 10px; }
 section.p_story .grid_wrap li p.sub { font-size: 1.25em; margin-bottom: 10px; width: 100%; text-align: left; color: #555; }
